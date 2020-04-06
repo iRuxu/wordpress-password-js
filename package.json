@@ -1,0 +1,24 @@
+{
+  "name": "wordpress-password-js",
+  "version": "1.0.0",
+  "description": "Create and verify wordpress password by node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iRuxu/wordpress-password-js.git"
+  },
+  "keywords": [
+    "wordpress",
+    "password",
+    "nodejs",
+    "js"
+  ],
+  "author": "iRuxu <rx6@qq.com> (https://iruxu.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "locutus": "^2.0.11"
+  }
+}
