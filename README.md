@@ -12,12 +12,13 @@ npm install --save wordpress-password-js
 ```
 
 ## Import
-```
+```javascript
 const PasswordHash = require('wordpress-password-js');
 const hasher = new PasswordHash()
 
 //create a new pwd
 var x = hasher.build('123456')
+
 //verify an old pwd
 var y = hasher.check('123456',x)
 console.log(x,y)
